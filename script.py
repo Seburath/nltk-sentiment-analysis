@@ -11,4 +11,5 @@ for syn in wordnet.synsets("small"):
 
             antonyms.append(l.antonyms()[0].name())
 
+
 print(antonyms)

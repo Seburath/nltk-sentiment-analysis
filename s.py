@@ -8,4 +8,5 @@ for syn in wordnet.synsets('Computer'):
 
         synonyms.append(lemma.name())
 
+
 print(synonyms)
